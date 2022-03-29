@@ -23,8 +23,8 @@
         android:layout_marginBottom="16dp"
         android:clickable="true"
         android:src="@drawable/plus"
+        app:backgroundTint="@color/design_default_color_primary_dark"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

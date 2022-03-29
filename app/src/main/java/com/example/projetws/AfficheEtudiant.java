@@ -29,7 +29,7 @@ public class AfficheEtudiant extends AppCompatActivity{
     private RecyclerView recycle;
     private FloatingActionButton addItem;
     RequestQueue requestQueue;
-    String loadUrl = "http://192.168.100.66/etudiant/ws/loadEtudiant.php";
+    String loadUrl = "http://24.10.14.222/etudiant/ws/loadEtudiant.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
