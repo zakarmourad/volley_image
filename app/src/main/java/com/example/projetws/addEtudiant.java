@@ -51,7 +51,7 @@ public class addEtudiant extends AppCompatActivity implements View.OnClickListen
     private Bitmap bitmap = null;
     private String link = "android.resource://com.example.projetws/drawable/avatar";
     RequestQueue requestQueue;
-    String insertUrl = "http://24.10.14.222/etudiant/ws/createEtudiant.php";
+    String insertUrl = "http://192.168.137.160/etudiant/ws/createEtudiant.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

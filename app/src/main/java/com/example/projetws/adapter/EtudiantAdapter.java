@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
+
 import android.util.Base64;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -28,10 +29,8 @@ import com.android.volley.toolbox.Volley;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.example.projetws.EditEtudiant;
-import com.example.projetws.beans.Etudiant;
-
 import com.example.projetws.R;
-
+import com.example.projetws.beans.Etudiant;
 
 import java.util.HashMap;
 import java.util.List;
@@ -68,7 +67,7 @@ public class EtudiantAdapter extends RecyclerView.Adapter<EtudiantAdapter.Etudia
         holder.ville.setText("Ville : " + etudiants.get(position).getVille());
         holder.sexe.setText("Sexe : " + etudiants.get(position).getSexe());
         if(etudiants.get(position).getImg() == null) {
-            String link = "android.resource://com.mestaoui.projetws/drawable/avatar";
+            String link = "android.resource://com.example.projetws/drawable/avatar";
             Glide
                     .with(context)
                     .load(Uri.parse(link))

@@ -56,8 +56,8 @@ public class EditEtudiant extends AppCompatActivity implements View.OnClickListe
     private String link = "android.resource://com.example.projetws/drawable/avatar";
     private int id = 0;
     RequestQueue requestQueue;
-    String loadUrl = "http://24.10.14.222/etudiant/ws/loadEtudiant.php";
-    String updateUrl = "http://24.10.14.222/etudiant/ws/updateEtudiant.php";
+    String loadUrl = "http://192.168.137.160/etudiant/ws/loadEtudiant.php";
+    String updateUrl = "http://192.168.137.160/etudiant/ws/updateEtudiant.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
